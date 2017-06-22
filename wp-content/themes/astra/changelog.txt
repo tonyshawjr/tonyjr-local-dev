@@ -1,0 +1,100 @@
+v1.0.9
+# New: Added accessibility ready support.
+
+v1.0.8
+# Improvement: Page Builder Compatibilty Styles.
+# Improvement: Slider param implemented for line-height.
+# Fixed: String Updated from "Inherit" to "Default" for Body Typography.
+
+v1.0.7
+# Improvement: Moved 'Buttons' section from panel 'miscellaneous' to parent.
+# Improvement: Site logo, title, tagline spacing improved.
+# Improvement: Menu toggle line height issue fixed for small devices.
+# Removed: Unwanted dyanamic css filter.
+
+v1.0.6
+# Enhancement: Combined CSS files 'blog-layout-1' and 'astra-font' files in style.css.
+# Enhancement: Combined JS files 'flexibility', 'navigation' and 'skip-link-focus-fix' files in style.js
+# Enhancement: Used astra_get_option() to set default customizer options instead of representative Astra_Theme_Options::defaults().
+# Fixed: RTL support for minified css files.
+# New: Typography option for Archive Summary Box.
+# Enhancement: Updated default heading font-size support for small devices.
+
+v1.0.5.2
+# Enhancement: Updated theme default screenshot.png.
+# Enhancement: Used filter 'after_setup_theme' to set default theme options instead of action 'init'.
+
+v1.0.5.1
+# Fixed: Use &hellip; instead of ...
+# Fixed: Use sanitize_html_class to sanitize HTML class
+# Fixed: Remove comment-list from add_theme_support( 'html5' )
+# Fixed: Escaping implemented for Dynamic CSS
+
+v1.0.5
+# Enhancement: Updated customizer option prefix from 'ast-settings' with 'astra-settings'
+# Fixed: PHP Notice - Array to string conversion
+# Fixed: Change date('Y') to date_i18n(__('Y','textdomain'))
+# Fixed: Remove comment-form from add_theme_support( 'html5' )
+# Fixed: `excerpt_more` filter affecting on admin side.
+# Fixed: Missing escaping variable updated.
+
+v1.0.4.1
+# Fixed: Warning on first time activates the theme.
+
+v1.0.4
+# New: Responsive Typography Param implemented.
+# New: Added option for Menu Label on Small Devices.
+# New: Added option for Mobile Header Alignment.
+# Improvement: Updated primary submenu navigation icon.
+# Improvement: Updated Small Devices menu navigation styling.
+# Removed: Default Small Devices Menu Label - 'Menu'.
+
+v1.0.3.1
+# Removed functions that override WordPress global's.
+
+v1.0.3
+# Enhancement: Removed option _astra_auto_version and used option ASTRA_THEME_SETTINGS for auto storing latest theme version.
+# Fixed: Content Layout meta working on beaver builder page/post.
+
+v1.0.2
+# New: Added Beaver Themer support.
+# New: Added option to disable primary header navigation.
+# New: Added widget area support for header & footer.
+# New: Added editor style minification file support.
+# New: Added header layouts.
+# Improvement: Updated responsive header styling.
+# Improvement: Removed unwanted minified & unminified files.
+# Improvement: Removed unwanted constants.
+# Improvement: Removed unused variables when a classes are initialised.
+# Improvement: Moved hook astra_body_bottom at the top of the wp_footer hook.
+# Improvement: Renamed the uabb theme compatibility functions to not include redundant prefix.
+# Improvement: Used get_bloginfo() instead of get_option('blogname').
+
+v1.0.1.1
+# Added: Welcome screen for in theme page
+# Added: Theme page support in base theme.
+# Removed: Unwanted add_theme_supports.
+# Removed: Unused function 'astra_the_archive_title()'
+# Removed: 'Walker_Nav_Menu' & 'Walker_Page' classes
+# Fixed: Theme page settings save message jerk issue.
+
+v1.0.1
+# Fixed: Fixed correct usage of esc_attr() and esc_html() functions.
+# Added license and attribution to all the assets included in the theme.
+# Properly use get_search_form() function.
+# Updated Theme Screenshot.
+# Updated Theme URI.
+# Changed text-domain as `astra`
+# Added flexibility unminified file.
+# Tweaked the code to skip need to override WordPress globals.
+# Fixed Terniary condition middle omittion not working in PHP < 5.3
+# Removed: All functionality related to child theme creation.
+# Removed: Code that removes default customiser control.
+# Removed: Registering admin menu from the theme.
+# Removed: Customizer & Meta notice for `Page Builder` content layout.
+# Removed: Reset customizer from theme.
+# Removed: All code related to on-boarding from theme.
+# Removed: All unused and unnecessary functions.
+
+v1.0.0
+# Initial release
